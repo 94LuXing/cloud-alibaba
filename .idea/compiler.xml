@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lx-sale" />
+        <module name="lx-gateway" />
+        <module name="lx-seata" />
+        <module name="lx-config" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lx-config" options="-parameters" />
+      <module name="lx-gateway" options="-parameters" />
+      <module name="lx-sale" options="-parameters" />
+      <module name="lx-seata" options="-parameters" />
+    </option>
+  </component>
+</project>

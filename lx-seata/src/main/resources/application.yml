@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: lx-seata
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://82.156.51.218:3306/db_fl_trading?useSSL=false&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: root
+    password: lxA_Pu%oS8Pl
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 82.156.71.248:9006
+  redis:
+    host: 82.156.51.218
+    port: 46379
+    password: sanyiredis$34
+server:
+  port: 9020
+
+# Seata 配置项，对应 SeataProperties 类
+seata:
+  application-id: ${spring.application.name} # Seata 应用编号，默认为 ${spring.application.name}
+  tx-service-group: my_test_tx_group # Seata 事务组编号，用于 TC 集群名
+  # 服务配置项，对应 ServiceProperties 类
+  service:
+    # 虚拟组和分组的映射  my_test_tx_group
+    vgroup-mapping:
+      my_test_tx_group: default
+    # 分组和 Seata 服务的映射
+    grouplist:
+      default: 127.0.0.1:8091
+    # Seata 注册中心配置项，对应 RegistryProperties 类
+    registry:
+      type: nacos # 注册中心类型，默认为 file
+      nacos:
+        cluster: default # 使用的 Seata 分组
+        serverAddr: 82.156.71.248 # Nacos 服务地址

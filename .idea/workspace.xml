@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="50465868-4027-4507-a31a-b83268cff063" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\learning\workspace\mavenHouse" />
+        <option name="mavenHome" value="D:/fenglian/sanyi/software/apache-maven-3.8.1-bin" />
+        <option name="userSettingsFile" value="D:\learning\workspace\mavenHouse\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tNv3xxphWVnqXLc8JNaWJzD6EM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/lx-seata/src/main/java/com/lx/business" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lx-seata/src/main/resources" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\learning\workspace\new-alibaba\lx-seata\src\main\resources\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\learning\workspace\new-alibaba\lx-seata\src\main\resources" />
+      <recent name="D:\learning\workspace\new-alibaba\lx-config\src\main" />
+      <recent name="D:\learning\workspace\new-alibaba\lx-sale\src\main\resources" />
+      <recent name="D:\learning\workspace\new-alibaba\lx-sale\src\main" />
+      <recent name="D:\learning\workspace\new-alibaba\lx-gateway\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SeataApplication">
+    <configuration name="SeataApplicationTest.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lx-seata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lx" />
+      <option name="MAIN_CLASS_NAME" value="com.lx.SeataApplicationTest" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lx-config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lx.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lx-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lx.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaleApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lx-sale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lx.SaleApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="lx-seata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lx.SeataApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SeataApplication" />
+        <item itemvalue="Spring Boot.SaleApplication" />
+        <item itemvalue="Spring Boot.ConfigApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="JUnit.SeataApplicationTest.testQuery" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.20772947" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Not Started" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="50465868-4027-4507-a31a-b83268cff063" name="Default Changelist" comment="" />
+      <created>1622622165518</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622622165518</updated>
+      <workItem from="1622622168578" duration="13568000" />
+      <workItem from="1622683289484" duration="12536000" />
+      <workItem from="1623070098897" duration="324000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="71" key="#Inspections" timestamp="1622635005966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1622635005966" />
+    <state x="237" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1622631959386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="237" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1622631959386" />
+    <state x="318" y="4" key="CommitChangelistDialog2" timestamp="1623070429205">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="318" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1623070429205" />
+    <state width="860" height="466" key="DebuggerActiveHint" timestamp="1622692354520">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="860" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1622692354520" />
+    <state width="1478" height="276" key="GridCell.Tab.0.bottom" timestamp="1622724868195">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622724868195" />
+    <state width="1478" height="276" key="GridCell.Tab.0.center" timestamp="1622724868195">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1622724868195" />
+    <state width="1478" height="276" key="GridCell.Tab.0.left" timestamp="1622724868195">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1622724868195" />
+    <state width="1478" height="276" key="GridCell.Tab.0.right" timestamp="1622724868195">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1622724868195" />
+    <state width="1147" height="266" key="GridCell.Tab.1.bottom" timestamp="1622724868191">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1147" height="266" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622724868191" />
+    <state width="1147" height="266" key="GridCell.Tab.1.center" timestamp="1622724868190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1147" height="266" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1622724868190" />
+    <state width="1147" height="266" key="GridCell.Tab.1.left" timestamp="1622724868190">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1147" height="266" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1622724868190" />
+    <state width="1147" height="266" key="GridCell.Tab.1.right" timestamp="1622724868191">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1147" height="266" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1622724868191" />
+    <state width="1147" height="288" key="GridCell.Tab.2.bottom" timestamp="1622712686088">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1147" height="288" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1622712686088" />
+    <state width="1147" height="288" key="GridCell.Tab.2.center" timestamp="1622712686087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1147" height="288" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1622712686087" />
+    <state width="1147" height="288" key="GridCell.Tab.2.left" timestamp="1622712686087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1147" height="288" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1622712686087" />
+    <state width="1147" height="288" key="GridCell.Tab.2.right" timestamp="1622712686087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1147" height="288" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1622712686087" />
+    <state x="276" y="73" key="SettingsEditor" timestamp="1622686059589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="276" y="73" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1622686059589" />
+    <state x="571" y="209" width="810" height="444" key="chooseDestDirectoryDialog" timestamp="1622626709415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="571" y="209" width="810" height="444" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1622626709415" />
+    <state x="178" y="107" key="new project wizard" timestamp="1622635976417">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1622635976417" />
+    <state x="103" y="145" width="1331" height="678" key="search.everywhere.popup" timestamp="1622683506632">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="103" y="145" width="1331" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1622683506632" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../mavenHouse/org/springframework/cloud/spring-cloud-context/2.2.2.RELEASE/spring-cloud-context-2.2.2.RELEASE.jar!/org/springframework/cloud/bootstrap/config/PropertySourceLocator.class</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$PROJECT_DIR$/../mavenHouse/org/springframework/cloud/spring-cloud-context/2.2.2.RELEASE/spring-cloud-context-2.2.2.RELEASE.jar!/org/springframework/cloud/bootstrap/config/PropertySourceBootstrapConfiguration.class</url>
+          <line>69</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
