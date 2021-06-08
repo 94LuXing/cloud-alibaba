@@ -8,11 +8,6 @@ node {
     stage('拉取代码') {
         checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'a70a8425-9c2f-4662-a9e9-9b43c99ca87c', url: 'https://github.com/94LuXing/cloud-alibaba.git']]])
         }
-    stage('编译构建') {
-        sh """
-            mvn clean package
-        """
-    }
     stage('代码审查') {
         def scannerHome = tool 'sonarqube-scanner'
         withSonarQubeEnv('sonar7.6') {
@@ -21,5 +16,11 @@ node {
             """
         }
     }
+    stage('编译，构建镜像') {
+            //定义镜像名称
+            def imageName = "${project_name}:${tag}"
+            //编译，构建本地镜像
+            sh "mvn -f ${project_name} clean package dockerfile:build"
+        }
 
 }
