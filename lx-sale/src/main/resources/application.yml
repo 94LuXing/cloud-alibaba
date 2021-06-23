@@ -15,7 +15,7 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 82.156.71.248:9006
+        server-addr: 192.168.81.1:8848
     sentinel:
       transport:
         port: 9900

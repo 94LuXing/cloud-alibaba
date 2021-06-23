@@ -1,0 +1,74 @@
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+    <jmxConfigurator/>
+
+    <springProperty scope="context" name="module_name" source="spring.application.name"/>
+
+    <!--错误日志邮件配置 参考：https://cloud.tencent.com/developer/article/1424740 -->
+    <property name="logback.to" value="1171901273@qq.com"/>
+    <property name="logback.from" value="18152793959@163.com"/>
+    <property name="logback.username" value="18152793959@163.com"/>
+    <!--第三方登录授权码，在163邮箱设置中生成-->
+    <property name="logback.password" value="ZBOAWDARXLYYMBIZ"/>
+
+    <appender name="email" class="ch.qos.logback.classic.net.SMTPAppender">
+        <smtpHost>smtp.163.com</smtpHost>
+        <smtpPort>25</smtpPort>
+        <SSL>false</SSL>
+        <STARTTLS>true</STARTTLS>
+        <asynchronousSending>false</asynchronousSending>
+        <username>${logback.username}</username>
+        <password>${logback.password}</password>
+        <to>${logback.to}</to>
+        <from>${logback.from}</from>
+        <subject>TESTING: %logger{20} - %m</subject>
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%date %-5level %logger{35} - %message%n</pattern>
+        </layout>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <appender name="logfile" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>../logs/${module_name}.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ssS} %5p [%c]:%L-%m%n</pattern>
+            <charset class="java.nio.charset.Charset">UTF-8</charset>
+        </encoder>
+        <prudent>false</prudent>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>../logs/${module_name}.%d{yyyy-MM-dd}.log.gz</fileNamePattern>
+            <maxHistory>7</maxHistory>
+        </rollingPolicy>
+    </appender>
+
+<!--    <appender name="stash" class="net.logstash.logback.appender.LogstashTcpSocketAppender">-->
+<!--        <destination>192.168.159.128:5000</destination>-->
+
+<!--        &lt;!&ndash; encoder is required &ndash;&gt;-->
+<!--        <encoder class="net.logstash.logback.encoder.LogstashEncoder"/>-->
+<!--    </appender>-->
+
+    <logger name="com.mountslink" level="debug" />
+    <logger name="com.scm" level="debug" />
+    <logger name="com.xxl.job.core.thread.ExecutorRegistryThread" level="warn" />
+
+    <!-- 屏蔽掉druid版本低下导致的bug error日志信息 -->
+    <logger name="com.alibaba.druid.pool.DruidAbstractDataSource" level="OFF"/>
+
+    <root level="info">
+<!--        <appender-ref ref="logfile"/>-->
+        <appender-ref ref="email"/>
+    </root>
+
+
+<!--    <springProfile name="!dev">-->
+<!--        <root level="info">-->
+<!--            <appender-ref ref="stash"/>-->
+<!--        </root>-->
+<!--    </springProfile>-->
+</configuration>
